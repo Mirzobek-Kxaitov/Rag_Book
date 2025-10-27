@@ -30,7 +30,7 @@ docker-compose up -d --build
 Ilova ishga tushgandan keyin, brauzeringizda quyidagi manzilni oching:
 
 ```
-http://localhost:7860
+http://serverIP:8000
 ```
 
 ## Docker Buyruqlari
