@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  gradio-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: beruniy-ai-app
+    ports:
+      - "8000:8000"
+    environment:
+      - PINECONE_API_KEY=${PINECONE_API_KEY}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - PINECONE_ENVIRONMENT=${PINECONE_ENVIRONMENT:-us-east-1}
+    env_file:
+      - .env
+    volumes:
+      - ./static:/app/static
+      - ./data:/app/data
+      - ./feedback_log.txt:/app/feedback_log.txt
+    restart: unless-stopped
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

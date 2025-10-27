@@ -1,0 +1,24 @@
+Bu demo kitob.
+
+    Kitob haqida:
+    Bu kitob sun'iy intellekt va machine learning haqida.
+
+    Asosiy mavzular:
+    1. Machine Learning asoslari
+    2. Deep Learning
+    3. Natural Language Processing
+    4. Computer Vision
+
+    Muallif: AI Expert
+    Nashr yili: 2024
+
+    Kitobda quyidagi masalalar muhokama qilinadi:
+    - Supervised Learning
+    - Unsupervised Learning  
+    - Reinforcement Learning
+    - Neural Networks
+    - Transformer modellar
+
+    Xulosalar:
+    Sun'iy intellekt texnologiyalari tez rivojlanmoqda va kelajakda ko'plab sohalarda qo'llaniladi.
+    
